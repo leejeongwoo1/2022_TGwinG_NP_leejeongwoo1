@@ -61,10 +61,11 @@ def findDaesun(x1,y1,r1,x2,y2,r2):
     # your code
     z=((x1-x2)**2+(y1-y2)**2)**(1/2)
     if r1==0 or r2==0:
-        return "1"
+        return 1
     elif x1==x2 and y1==y2:
         return "어딘지 모르겠다 오바"
     elif z==r1+r2 or r2==r1+z or r1==r2+z:
-        return "1"
+        return 1
     else :
-        return "2"
+        return 2
+
