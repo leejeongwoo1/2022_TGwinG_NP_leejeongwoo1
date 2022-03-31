@@ -21,7 +21,7 @@ print(div(32,3))
 # 문제 5번
 def distance(x1,y1,x2,y2):
     # your code
-    return (((x1-x2)**2+(y1-y2)**2)**1/2)
+    return (((x1-x2)**2+(y1-y2)**2)**(1/2))
 print(distance(2,1,5,4))
 # 문제 6번
 def short():
